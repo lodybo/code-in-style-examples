@@ -1,0 +1,18 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "A small test project to showcase custom ESLint and Babel rules/config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/index.js",
+    "build": "babel -o src/script.min.js src/index.js"
+  },
+  "keywords": [],
+  "author": "Lody Borgers <hi@lodybo.nl> (https://www.lodybo.nl)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "eslint": "^5.9.0"
+  }
+}

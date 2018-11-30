@@ -1,0 +1,8 @@
+# Ignore VS Code's Workspace files
+*.code-workspace
+
+# Ignore subprojects' node_modules/
+node_modules/
+
+# Ignore build artifacts
+*.min.js
